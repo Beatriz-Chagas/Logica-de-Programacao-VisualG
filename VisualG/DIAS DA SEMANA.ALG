@@ -32,7 +32,11 @@ Inicio
                   se numero = 6 entao
                      escreval ("O dia da semana é sexta-feira")
                   senao
-                     escreval ("O dia da semana é sabádo")
+                     se numero = 7 entao
+                        escreval ("O dia da semana é sabádo")
+                     senao
+                        escreval ("não existe um dia da semana correspondente a esse número.")
+                     fimse
                   fimse
                fimse
             fimse
