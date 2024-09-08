@@ -1,4 +1,4 @@
- # Logica de Programação JS
+ # Lógica de Programação JS
 
 ## Exercícios
  ### FACCAT
