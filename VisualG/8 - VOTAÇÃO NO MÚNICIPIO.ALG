@@ -23,9 +23,9 @@ Inicio
 
       escreval("-------------------------------------------------------------------")
       escreval("A quantidade de pessoas que votaram neste municipio é: ", total)
-      escreval("A quantidade de pessoas que votaram nulo é: ", pernulo:2:2 ,"%")
-      escreval("A quantidade de pessoas que votaram em branco é: ", perbranco:2:2 ,"%")
-      escreval("A quantidade de pessoas que tiveram o voto valido é: ", pervalido:2:2 ,"%")
+      escreval("A porcentagem de pessoas que votaram nulo é: ", pernulo:2:2 ,"%")
+      escreval("A porcentagem de pessoas que votaram em branco é: ", perbranco:2:2 ,"%")
+      escreval("A porcentagem de pessoas que tiveram o voto valido é: ", pervalido:2:2 ,"%")
       escreval("-------------------------------------------------------------------")
 
 Fimalgoritmo
