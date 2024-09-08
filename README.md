@@ -2,7 +2,11 @@
 
 ## Exercícios
  ### FACCAT
-- 5 ao 49 :construction:
+- 5 ao 13 :construction:
+- 14 ao 26 :construction:
+- 27 ao 38
+- 40 ao 43
+- 44 ao 49 
  ### Manzano
 - Pág 25. - ex 7 da A até M :white_check_mark:
 - Pág 26. - ex extra 1 da A até C :white_check_mark:
