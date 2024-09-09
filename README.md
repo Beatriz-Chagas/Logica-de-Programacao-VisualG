@@ -2,7 +2,7 @@
 
 ## Exercícios
  ### FACCAT
-- 5 ao 13 :construction:
+- 5 ao 13 :white_check_mark:
 - 14 ao 26 :construction:
 - 27 ao 38
 - 40 ao 43
