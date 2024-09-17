@@ -4,8 +4,8 @@
  ### FACCAT
 - 5 ao 13 :white_check_mark:
 - 14 ao 26 :white_check_mark:
-- 27 ao 38 :construction:
-- 40 ao 43
+- 27 ao 38 :white_check_mark:
+- 40 ao 43 :construction:
 - 44 ao 49 
  ### Manzano
 - Pág 25. - ex 7 da A até M :white_check_mark:

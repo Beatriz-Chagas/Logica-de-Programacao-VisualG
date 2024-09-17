@@ -6,51 +6,47 @@ Algoritmo " POSTO DE GASOLINA"
 //que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90. o;
 //‘Segundo maior’, caso o segundo seja maior que o primeiro.
 // Data atual  : 14/09/2024
-Var
-   // Seção de Declarações das variáveis
-  litros,total, totaldes, desconto: real
-   combustivel: caractere
-Inicio
-   escreval ("-----------------------------")
-   escreval (" POSTO DE GASOLINA ")
-   escreval ("-----------------------------")
-   Escreval ("Insira o número de litros vendidos: ")
-   Leia (litros)
-   Escreval ("Insira o tipo de combustível (A)Alcool ou (G)Gasolina: ")
-   Leia (combustivel)
+var
+   litros, precoA, precoG, total : real
+   combustivel : caractere
 
-   escolha combustivel
-   caso "A"
-      total <- litros * 2,90
-      se (litros > 20) entao
-         desconto <- (litros + 5/100)
-         totaldes <- total - desconto
+inicio
+   precoA <- 3,30
+   precoG <- 2,90
+
+   repita
+      escreval ("-----------------------------")
+      escreval (" POSTO DE GASOLINA ")
+      escreval ("-----------------------------")
+      Escreval ("Insira o tipo de combustível (A)Alcool ou (G)Gasolina: ")
+      Leia (combustivel)
+   ate ((combustivel = "A") ou (combustivel = "G"))
+
+
+   repita
+      Escreval ("Insira o número de litros vendidos: ")
+      Leia (litros)
+
+   ate (litros > 0)
+
+   //para Álcool
+   se (litros <= 20) e (combustivel = "A") entao
+      total <- litros*(precoA*(1-(3/100)))
+   senao
+      se (litros > 20) e (combustivel = "A") entao
+         total <- litros*(precoA*(1-(5/100)))
+      senao
+         //para Gasolina
+         se (litros <= 20) e (combustivel="G") entao
+            total <- litros*(precoG*(1-(4/100)))
          senao
-         desconto <- (litros + 3/100)
-         totaldes <- total - desconto
-         fimse
-         
-      caso "G"
-      total <- litros * 3,30
-      se (litros > 20) entao
-         desconto <- (litros + 6/100)
-         totaldes <- total - desconto
-         senao
-         desconto <- (litros + 4/100)
-         totaldes <- total - desconto
-         fimse
-         
-         outrocaso
-            escreval("-------------------------------------------------------------------")
-            escreval("Esse combustivel não está disponível." )
-            escreval("-------------------------------------------------------------------")
+            se (litros > 20) e (combustivel = "G") entao
+               total <- litros*(precoG*(1-(6/100)))
+            fimSe
+         fimSe
+      fimSe
+   fimSe
 
-         fimescolha
+   escreval ("O valor total a pagar: R$", total:1:2)
 
-         escreval("-------------------------------------------------------------------")
-         escreval("O valor total a pagar será: ", totaldes )
-         escreval("-------------------------------------------------------------------")
-
-
-Fimalgoritmo
-
+fimAlgoritmo
