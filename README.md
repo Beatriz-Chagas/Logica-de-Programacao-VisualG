@@ -1,19 +1,39 @@
- # Lógica de Programação JS
+ # Lógica de Programação 
 
-## Exercícios
+# Exercícios
+
+## Java Script
+
+### FACCAT
+- 5 ao 13 :construction:
+- 14 ao 26 
+- 27 ao 38 
+- 40 ao 43 
+- 44 ao 49 
+ ### Manzano
+- Lista 1
+- Extras
+- Lista 2
+- Lista 3 :construction:
+- Lista 4 
+- Lista 5 :construction:
+
+
+## VisualG
+
  ### FACCAT
 - 5 ao 13 :white_check_mark:
 - 14 ao 26 :white_check_mark:
 - 27 ao 38 :white_check_mark:
-- 40 ao 43 :construction:
-- 44 ao 49 
+- 40 ao 43 :white_check_mark:
+- 44 ao 49 :white_check_mark:
  ### Manzano
-- Pág 25. - ex 7 da A até M :white_check_mark:
-- Pág 26. - ex extra 1 da A até C :white_check_mark:
-- Pág 41. - ex A da A até L
-- Pág 46. - ex 1 da A até L :construction:
-- Pág 50. - ex 1 da A até J
-- Pág 66. - ex 1 da A até K :construction:
+- Lista 1:white_check_mark:
+- Extras :white_check_mark:
+- Lista 2
+- Lista 3 :white_check_mark:
+- Lista 4 :construction:
+- Lista 5 
 
 ## Ferramentas
 - VS Code

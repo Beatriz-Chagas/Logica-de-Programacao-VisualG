@@ -1,7 +1,7 @@
 Algoritmo "QUADRADO DOS NUMEROS INTEIROS"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Jailson Santos
-// Descrição   : Apresentar os quadrados dos números inteiros de 15 a 200.
+// DescriÃ§Ã£o   : Apresentar os quadrados dos nï¿½meros inteiros de 15 a 200.
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 09/09/2024
 
@@ -18,7 +18,7 @@ Inicio
       contador <- contador + 1
       numero <- contador*contador
       escreval ("------------------------------")
-      escreval (contador,"² =",numero)
+      escreval (contador,"ï¿½ =",numero)
       escreval ("------------------------------")
    ate (contador = 200)
 fimalgoritmo

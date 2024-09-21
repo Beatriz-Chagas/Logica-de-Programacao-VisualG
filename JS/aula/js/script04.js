@@ -12,14 +12,25 @@
 //     alert("Atigiu o ponto de ebulição");
 // }
 
-let numero1 =parseInt(prompt("Insira um numero"));
-let numero2 =parseInt(prompt("Insira um numero"));
 
-if (numero1 > numero2) {
-    let diferenca = numero1 - numero2;
-    alert(`A diferenca entre ${numero1} e ${numero2} é ${diferenca}`);
-   // alert("A diferença entre "+numero1+" e "+numero2+ "é "+diferenca);
-} else {
-    let diferenca = numero2 - numero1
-    alert(`A diferença entre ${numero1} e ${numero2} é ${diferenca}`)
-}
+// let numero1 =parseInt(prompt("Insira um numero"));
+// let numero2 =parseInt(prompt("Insira um numero"));
+
+// if (numero1 > numero2) {
+//     let diferenca = numero1 - numero2;
+//     alert(`A diferenca entre ${numero1} e ${numero2} é ${diferenca}`);
+//    // alert("A diferença entre "+numero1+" e "+numero2+ "é "+diferenca);
+// } else {
+//     let diferenca = numero2 - numero1
+//     alert(`A diferença entre ${numero1} e ${numero2} é ${diferenca}`)
+// }
+
+// let idade = parseInt(prompt("Digite a idade"))
+
+// if (idade <16) {
+//     alert ("N~so pode votar.")
+// }else if(idade < 18){
+//     alert("voto opcional.")
+// } else{
+//     alert ("Pode votar normalmente.")
+// }
