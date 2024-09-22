@@ -1,22 +1,22 @@
 Algoritmo "Sucessor"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Santos
-// DescriÁ„o   : Solicitar ao us·rio que insira dois valores, calcular o sucessor e entregar o resultao de volta para o usu·rio.
+// Descri√ß√£o   : Solicitar ao usu√°rio que insira dois valores, calcular o sucessor e entregar o resultao de volta para o usu√°rio.
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 29/08/2024
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√£es das vari√°veis
 
 n1,suss: inteiro
 
 Inicio
 
-      Escreva ("Digite um n˙mero inteiro: ")
+      Escreva ("Digite um n√°mero inteiro: ")
       Leia (n1)
 
       suss <- n1 + 1
 
-      escreva("O sucessor desse valor È: ", suss)
+      escreva("O sucessor desse valor √©: ", suss)
 
 
 Fimalgoritmo

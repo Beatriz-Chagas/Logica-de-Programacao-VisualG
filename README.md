@@ -30,10 +30,10 @@
  ### Manzano
 - Lista 1 :white_check_mark:
 - Extras :white_check_mark:
-- Lista 2
+- Lista 2 :construction:
 - Lista 3 :white_check_mark:
-- Lista 4 :construction:
-- Lista 5 
+- Lista 4 :white_check_mark:
+- Lista 5 :white_check_mark:
 
 ## Ferramentas
 - VS Code

@@ -1,11 +1,11 @@
 Algoritmo "CALCULO DE PESO POR ALTURA "
-// Disciplina  : [L�gica de Programa��o com JavaScript]
+// Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Jailson Santos
-// Descri��o   :Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes f�rmulas:
+// Descrição   :Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fármulas:
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 09/09/2024
 Var
-   // Se��o de Declara��es das vari�veis
+   // Seção de Declaraçães das variáveis
 
    nome, sexo: caracter
    altura, pesoideal: real
@@ -19,14 +19,14 @@ Inicio
    Escreval ("Escolha M, para sexo masculino ou F para sexo feminino: ")
    Leia (sexo)
 
-   //O c�digo disponibilizado n�o continha aspas
+   //O cádigo disponibilizado náo continha aspas
    se sexo = "M" entao
       pesoideal <- (72.7 * altura) - 58
    senao
       pesoideal <- (62.1 * altura) - 44.7
    fimse
    escreval("-------------------------------------------------------------------")
-   escreval("O peso ideal para ", nome ," � :", pesoideal )
+   escreval("O peso ideal para ", nome ," á :", pesoideal )
    escreval("-------------------------------------------------------------------")
 
 Fimalgoritmo
