@@ -21,6 +21,6 @@ Inicio
       soma <- soma + contador
       fimse
    ate (contador = 500)
-   escreval (" A soma total dos námeros pares entre 1 e 500 é: ", soma)
+   escreval (" A soma total dos números pares entre 1 e 500 é: ", soma)
 
 Fimalgoritmo

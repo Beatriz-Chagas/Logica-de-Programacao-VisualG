@@ -1,24 +1,37 @@
 Algoritmo " REVENDA DE CARROS"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor   : Jailson Santos
-// Descrição   : Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor.
+// Descriï¿½ï¿½o  : Escrever um algoritmo que leia o nï¿½mero de carros por ele vendidos, 
+// o valor total de suas vendas, o salï¿½rio fixo e o valor que ele recebe por carro vendido. 
+// Calcule e escreva o salï¿½rio final do vendedor.
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 08/09/2024
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 
 carros, vendatotal, salariofixo, comissao, comissaofixa, salariofinal: real
 
 Inicio
-   escreval ("-----------------------------")
+   escreval ("--------------------------------")
    escreval (" SALARIO DE REVENDEDOR DE CARROS")
-   escreval ("-----------------------------")
-   Escreval ("Insira o valor do custo de fabrica do carro : ")
-   Leia (carros, vendatotal, salariofixo, comissaofixa )
+   escreval ("--------------------------------")
 
-   salariofinal <- salariofixo + (comissao + carros) + (vendatotal * 0.05)
+   Escreval ("Insira quantos carros foram vendidos: ")
+   Leia (carros)
+
+   Escreval ("Insira a quantia de venda total de carros: ")
+   leia(vendatotal)
+
+   Escreval ("Insira o valor que o vendedor recebe por carro vendido: ")
+   Leia(comissaofixa)
+
+   Escreval ("Insira  o valor do salario fixo do vendedor: ")
+   Leia(salariofixo)
+
+
+   salariofinal <- salariofixo + (comissaofixa * carros) + (vendatotal * 0.05)
    escreval("-------------------------------------------------------------------")
-   escreval("O sálario final do vendedor é: R$", salariofinal)
+   escreval("O sï¿½lario final do vendedor ï¿½: R$", salariofinal)
    escreval("-------------------------------------------------------------------")
 
 Fimalgoritmo

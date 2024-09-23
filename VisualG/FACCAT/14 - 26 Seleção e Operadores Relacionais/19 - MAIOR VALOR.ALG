@@ -1,7 +1,7 @@
 Algoritmo " MAIOR VALOR "
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Jailson Santos
-// Descrição   : Ler dois valores (considere que náo seráo lidos valores iguais) e escrever o maior deles.
+// Descrição   : Ler dois valores (considere que núo seráo lidos valores iguais) e escrever o maior deles.
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 08/09/2024
 Var

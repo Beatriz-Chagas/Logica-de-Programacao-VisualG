@@ -19,7 +19,7 @@ Inicio
    Escreval ("Escolha M, para sexo masculino ou F para sexo feminino: ")
    Leia (sexo)
 
-   //O cádigo disponibilizado náo continha aspas
+   //O cádigo disponibilizado núo continha aspas
    se sexo = "M" entao
       pesoideal <- (72.7 * altura) - 58
    senao

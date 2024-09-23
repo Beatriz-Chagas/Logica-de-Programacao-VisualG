@@ -1,7 +1,7 @@
 // Saida de dados criando em uma caixa de texto
-alert("OLó mundo");
+alert("Olá mundo");
 // Saida de dados criando em uma caixa de texto
-console.log("OLó Mundo");
+console.log("Olá Mundo");
 
 //comentario inline
 
