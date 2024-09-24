@@ -18,8 +18,8 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   // Seleciona os valores dos campos de input do formulário
-  const num1 = parseInt(document.querySelector('#num1').value);
-  const num2 = parseInt(document.querySelector('#num2').value);
+  const num1 = parseInt(document.querySelector('.num1').value);
+  const num2 = parseInt(document.querySelector('.num2').value);
 
   // Realiza as operações matemáticas básicas
   const soma = num1 + num2;
