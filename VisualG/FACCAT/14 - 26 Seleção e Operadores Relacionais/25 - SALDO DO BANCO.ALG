@@ -1,27 +1,27 @@
 Algoritmo "SALDO DO BANCO"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Jailson Santos
-// Descrição   : Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e
-//escrever o saldo atual (saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior
-//ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.
+// Descriï¿½ï¿½o   : Faï¿½a um algoritmo para ler: nï¿½mero da conta do cliente, saldo, dï¿½bito e crï¿½dito. Apï¿½s, calcular e
+//escrever o saldo atual (saldo atual = saldo - dï¿½bito + crï¿½dito). Tambï¿½m testar se saldo atual for maior
+//ou igual a zero escrever a mensagem 'Saldo Positivo', senï¿½o escrever a mensagem 'Saldo Negativo'.
 // Autor(a)    : Beatriz Chagas
 // Data atual  : 13/09/2024
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    saldoatual, saldo, debito, credito: real
    conta: inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    escreval ("-----------------------------")
    escreval (" Saldo do banco")
    escreval ("-----------------------------")
-   Escreval ("Insira o número da conta: ")
+   Escreval ("Insira o nï¿½mero da conta: ")
    Leia (conta)
    Escreval ("Insira o valor do saldo: ")
    Leia (saldo)
-   Escreval ("Insira o valor o débito efetuado: ")
+   Escreval ("Insira o valor do dï¿½bito efetuado: ")
    Leia (debito)
-   Escreval ("Insira o valor do crédito disponivel: ")
+   Escreval ("Insira o valor do crï¿½dito disponivel: ")
    Leia (credito)
 
    saldoatual <- saldo - debito + credito
@@ -29,11 +29,11 @@ Inicio
    se saldoatual < 0 entao
 
       escreval("-------------------------------------------------------------------")
-      escreval("O valor do saldo atual é: R$", saldoatual , " ele é um saldo negativo." )
+      escreval("O valor do saldo atual ï¿½: R$", saldoatual , " ele ï¿½ um saldo negativo." )
       escreval("-------------------------------------------------------------------")
    senao
       escreval("-------------------------------------------------------------------")
-      escreval("O valor do saldo atual é: R$", saldoatual , " ele é um saldo positivo." )
+      escreval("O valor do saldo atual ï¿½: R$", saldoatual , " ele ï¿½ um saldo positivo." )
       escreval("-------------------------------------------------------------------")
    fimse
 

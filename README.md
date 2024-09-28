@@ -6,8 +6,8 @@
 
 ### FACCAT
 - 1 ao 11 :white_check_mark:
-- 12 ao 13
-- 14 ao 26
+- 12 ao 13 :white_check_mark:
+- 14 ao 26 :white_check_mark:
 - 27 ao 38
 - 40 ao 43
 - 44 ao 49 
